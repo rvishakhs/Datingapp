@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 namespace Datingapp.Controllers;
 [ApiController]
 [Route("api/[controller]")]
-public class UsersController : ControllerBase
+public class UsersController : BasicApiController
 {
     // Here we are using dependency injection to inject the datacontext into the controller so while constructor loading
     // we will get the datacontext here and use it in the controller
