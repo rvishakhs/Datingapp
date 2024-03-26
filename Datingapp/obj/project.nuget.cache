@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "gVnFoNt00bAPDKk5tJbQlrnS6Xd3MvFSCGM3qX9opFdZUjh6EzjSZ/eZ18WO9PvOVJo8QLdl/SIQ19FBOYCRrg==",
+  "dgSpecHash": "x2fwhrtobzFbz+lknwbVxSq4JaKOZY4zaYQY44VgsdSg/Z5ySR9eViK7TqltWE8lGNsUIyJeEA8VUF2cJ8Zf5Q==",
   "success": true,
   "projectFilePath": "/Users/visakh/Desktop/Web Development/Dotnet/stockapp/CRUDapp/Datingapp/Datingapp/Datingapp.csproj",
   "expectedPackageFiles": [
     "/Users/visakh/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/Users/visakh/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/7.0.17/microsoft.aspnetcore.authentication.jwtbearer.7.0.17.nupkg.sha512",
     "/Users/visakh/.nuget/packages/microsoft.aspnetcore.openapi/7.0.15/microsoft.aspnetcore.openapi.7.0.15.nupkg.sha512",
     "/Users/visakh/.nuget/packages/microsoft.data.sqlite.core/7.0.17/microsoft.data.sqlite.core.7.0.17.nupkg.sha512",
     "/Users/visakh/.nuget/packages/microsoft.entityframeworkcore/7.0.17/microsoft.entityframeworkcore.7.0.17.nupkg.sha512",
@@ -26,6 +27,12 @@
     "/Users/visakh/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "/Users/visakh/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
     "/Users/visakh/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "/Users/visakh/.nuget/packages/microsoft.identitymodel.abstractions/7.4.1/microsoft.identitymodel.abstractions.7.4.1.nupkg.sha512",
+    "/Users/visakh/.nuget/packages/microsoft.identitymodel.jsonwebtokens/7.4.1/microsoft.identitymodel.jsonwebtokens.7.4.1.nupkg.sha512",
+    "/Users/visakh/.nuget/packages/microsoft.identitymodel.logging/7.4.1/microsoft.identitymodel.logging.7.4.1.nupkg.sha512",
+    "/Users/visakh/.nuget/packages/microsoft.identitymodel.protocols/6.35.0/microsoft.identitymodel.protocols.6.35.0.nupkg.sha512",
+    "/Users/visakh/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.35.0/microsoft.identitymodel.protocols.openidconnect.6.35.0.nupkg.sha512",
+    "/Users/visakh/.nuget/packages/microsoft.identitymodel.tokens/7.4.1/microsoft.identitymodel.tokens.7.4.1.nupkg.sha512",
     "/Users/visakh/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
     "/Users/visakh/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
     "/Users/visakh/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.4/sqlitepclraw.bundle_e_sqlite3.2.1.4.nupkg.sha512",
@@ -37,6 +44,7 @@
     "/Users/visakh/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "/Users/visakh/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
     "/Users/visakh/.nuget/packages/system.codedom/4.4.0/system.codedom.4.4.0.nupkg.sha512",
+    "/Users/visakh/.nuget/packages/system.identitymodel.tokens.jwt/7.4.1/system.identitymodel.tokens.jwt.7.4.1.nupkg.sha512",
     "/Users/visakh/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
     "/Users/visakh/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
     "/Users/visakh/.nuget/packages/system.text.json/7.0.0/system.text.json.7.0.0.nupkg.sha512"

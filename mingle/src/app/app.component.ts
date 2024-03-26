@@ -1,14 +1,17 @@
 import { NgClass, NgFor } from '@angular/common';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { NavComponent } from "./nav/nav.component";
+import { FormsModule, NgForm } from '@angular/forms';
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet, HttpClientModule, NgFor],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+    selector: 'app-root',
+    standalone: true,
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.css',
+    imports: [RouterOutlet, HttpClientModule, NgFor, NavComponent, FormsModule,]
 })
 export class AppComponent implements OnInit {
   title = 'mingle';
@@ -22,6 +25,8 @@ export class AppComponent implements OnInit {
     }, error => {
       console.log(error);
     });
+      console.log(this.users);
   }
+  
   
 }

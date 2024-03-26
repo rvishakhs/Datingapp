@@ -67,3 +67,11 @@
 /Users/visakh/Desktop/Web Development/Dotnet/stockapp/CRUDapp/Datingapp/Datingapp/bin/Debug/net7.0/runtimes/win-arm64/native/e_sqlite3.dll
 /Users/visakh/Desktop/Web Development/Dotnet/stockapp/CRUDapp/Datingapp/Datingapp/bin/Debug/net7.0/runtimes/win-x64/native/e_sqlite3.dll
 /Users/visakh/Desktop/Web Development/Dotnet/stockapp/CRUDapp/Datingapp/Datingapp/bin/Debug/net7.0/runtimes/win-x86/native/e_sqlite3.dll
+/Users/visakh/Desktop/Web Development/Dotnet/stockapp/CRUDapp/Datingapp/Datingapp/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/visakh/Desktop/Web Development/Dotnet/stockapp/CRUDapp/Datingapp/Datingapp/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/visakh/Desktop/Web Development/Dotnet/stockapp/CRUDapp/Datingapp/Datingapp/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+/Users/visakh/Desktop/Web Development/Dotnet/stockapp/CRUDapp/Datingapp/Datingapp/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+/Users/visakh/Desktop/Web Development/Dotnet/stockapp/CRUDapp/Datingapp/Datingapp/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/visakh/Desktop/Web Development/Dotnet/stockapp/CRUDapp/Datingapp/Datingapp/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/visakh/Desktop/Web Development/Dotnet/stockapp/CRUDapp/Datingapp/Datingapp/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+/Users/visakh/Desktop/Web Development/Dotnet/stockapp/CRUDapp/Datingapp/Datingapp/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
