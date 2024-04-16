@@ -2,12 +2,36 @@
     <div class="flex container px-5">
         <a class="navbar-brand" href="#">Dating App</a>
         <div class="container d-flex flex-row justify-between ">
-            <ul class="text-white px-2 flex-auto d-flex m-1 text-center p-2">
-                <li class="p-1">Profile</li>
-                <li class="p-1">Matches</li>
-                <li class="p-1">Messages</li>
-            </ul>
-            <div class="flex flex-row items-center justify-center">
+            <div class="flex"> 
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" *ngIf="loggedIn" href="#">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" *ngIf="loggedIn" href="#">Matches</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" *ngIf="loggedIn" href="#">Messages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" *ngIf="loggedIn" href="#" (click)="loggedOut()">Logout</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="btn-group" *ngIf="loggedIn" dropdown>
+                <a class="btn btn-primary dropdown-toggle" dropdownToggle > Welcome {{model.username}}</a>
+
+                <ul  *dropdownMenu class="dropdown-menu"
+                    role="menu">
+                  <li role="menuitem"><a class="dropdown-item" href="#">Profile</a></li>
+                  <li role="menuitem"><a class="dropdown-item" href="#">Edit</a></li>
+                  <li role="menuitem"><a class="dropdown-item" href="#" (click)="loggedOut()">Logout</a></li>
+                </ul>
+              </div>
+
+            </div>
+            <div class="flex flex-row items-center justify-center" *ngIf="!loggedIn">
                 <form #loginForm="ngForm" class="d-flex" (ngSubmit)="login()" autocomplete="off">
                     <input 
                         name="username"
@@ -24,7 +48,6 @@
                     <button class="btn btn-outline-success" type="submit">Login</button>
                 </form>
             
-            </div>
             </div>      
         </div>    
   </nav>
