@@ -13,21 +13,19 @@
                     <li class="nav-item">
                         <a class="nav-link" *ngIf="loggedIn" href="#">Messages</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" *ngIf="loggedIn" href="#" (click)="loggedOut()">Logout</a>
-                    </li>
                 </ul>
             </div>
 
-            <div class="btn-group" *ngIf="loggedIn" dropdown>
-                <a class="btn btn-primary dropdown-toggle" dropdownToggle > Welcome {{model.username}}</a>
 
-                <ul  *dropdownMenu class="dropdown-menu"
-                    role="menu">
-                  <li role="menuitem"><a class="dropdown-item" href="#">Profile</a></li>
-                  <li role="menuitem"><a class="dropdown-item" href="#">Edit</a></li>
-                  <li role="menuitem"><a class="dropdown-item" href="#" (click)="loggedOut()">Logout</a></li>
-                </ul>
+              <div class="relative" *ngIf="loggedIn">
+                <button class="bg-blue-500 text-white font-bold py-2 px-4 rounded" (click)="toggleDropdown()" >
+                    Welcome {{model.username}}
+                </button>
+                <div class="absolute bg-white rounded w-48 mt-2 py-2 shadow-lg" [ngClass]="{ 'hidden': !dropdown }" >
+                  <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Profile </a>
+                  <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Edit</a>
+                  <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-200" (click)="loggedOut()">Logout</a>
+                </div>
               </div>
 
             </div>

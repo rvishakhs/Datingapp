@@ -16,6 +16,7 @@ export class NavComponent {
 
   model: any = {};
   loggedIn: boolean = false;
+  dropdown: boolean = false;
   constructor(private http : HttpClient) {
 
   }
@@ -34,6 +35,9 @@ export class NavComponent {
     this.loggedIn =false;
   }
 
+  toggleDropdown() {
+    this.dropdown = !this.dropdown;
+  }
 
 
 }
